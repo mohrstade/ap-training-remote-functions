@@ -1,0 +1,16 @@
+{
+  "name": "ap-training-remote-functions",
+  "version": "0.0.1",
+  "description": "cloud function for bigquery / dataform",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=enrich_ga4_data --signature-type=http",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moritz Bauer",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "node-fetch": "^2.7.0"
+  }
+}
